@@ -1,0 +1,41 @@
+packages:
+  - name: api
+    environment:
+      MONGODB_URL: "${MONGODB_URL}"
+
+    actions:
+      - name: root
+        runtime: python:default
+        web: true
+
+      - name: products-list
+        runtime: python:default
+        web: true
+
+      - name: products-search
+        runtime: python:default
+        web: true
+
+      - name: products-categories
+        runtime: python:default
+        web: true
+
+      - name: products-get
+        runtime: python:default
+        web: true
+
+      - name: products-create
+        runtime: python:default
+        web: true
+
+      - name: products-update
+        runtime: python:default
+        web: true
+
+      - name: products-delete
+        runtime: python:default
+        web: true
+
+      - name: webhook-stock-alert
+        runtime: python:default
+        web: true

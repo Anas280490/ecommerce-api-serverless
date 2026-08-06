@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+virtualenv/
+.env
+.env.local
+.deployed/
+.DS_Store
+__deployer__.zip
